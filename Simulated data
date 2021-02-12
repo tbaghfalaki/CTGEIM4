@@ -1,0 +1,29 @@
+# CTGEIM4 package
+
+
+> Run a Gibbs sampler to cluster time-course gene expression data set. For this purpose, a non-parametric Bayesian approach by considering a Dirichlet process for the mean of a marginal model with first order autoregressive of the within-gene covariance matrix.
+
+> Here we provide a comprehensible detailed vignette to cluster time-course gene expression data using CTGEIM4 package.
+
+> We illustrate the inference by some simulated summary statistics.
+
+> This vignette can reproduces a part of the simulation study of our submitted paper entitled as follows:
+
+  > Clustering time-course gene expression data using an infinite mixture model prior for marginal model.
+
+
+**Getting Started**
+
+  > In this vignette we used the following R packages
+- library(mvtnorm)
+- library(ComplexHeatmap)
+- library(circlize)
+- library(R2jags)
+- library(mcclust)
+
+**Example Usage**
+  > Examples from the CTGEIM4 can be found in the following:
+
+- CTGE_IM4: This analysis is presented [here](/CTGE_IM4 _Examp.md)
+- Cluster_Plot: This plot is presented [here](/Cluster_Plot_Examp.md)
+- PSM_plot: This analysis is presented [here](/PSM_plot_Examp.md)
