@@ -108,7 +108,9 @@ Generating time-course gene expression data
 
     time=1:length(Y[1,])
     Cluster_Plot(mExpression=Y,time,RESULTS$MPEAR,Some=TRUE)
-    !(Cluster.png)
+    
+    
+ ![](Cluster.png)
 
 
 ###  PSM_Plot
@@ -117,5 +119,7 @@ Generating time-course gene expression data
 
  
     PSM_plot(RESULTS$PSM)
-    !(PSM.png)
+    
+    
+![](PSM.png)
 
