@@ -91,8 +91,8 @@ Generating time-course gene expression data
     
 ### runing CTGE_IM4 function
 
-> For running CTGE_IM4, we consider 10 as maximum number of clusters 
-> (maxcluster=10), one chains (nchains=1), the lengths of
+> For running CTGE_IM4, we consider 6 as maximum number of clusters 
+> (maxcluster=6), one chains (nchains=1), the lengths of
 > MCMC iteration and burn-in are set at 1000 and 500, respectively
 > (niter=1000, burnin=500). Also, we consider
 > tau0=1 and varsigma0=1  as initial values. 
